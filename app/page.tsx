@@ -1,0 +1,1 @@
+export default function Page(){return <main><section className="card"><div className="kicker">Flora Pura · Kenya</div><h1>Digital Rose Collection</h1><p>The independent Flora Pura brochure foundation is ready. The assortment, colour filters, product cards, specifications, photography, certifications and contact information will be added here.</p></section></main>}
