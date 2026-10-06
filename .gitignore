@@ -1,0 +1,6 @@
+# Vercel and Next.js
+.vercel/
+.next/
+node_modules/
+.DS_Store
+.env*.local
