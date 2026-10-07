@@ -6,3 +6,12 @@
 .brand-group{overflow:hidden;height:58px}
 .logo{transform:translateY(-6px)}
 @media(max-width:700px){.brand-group{height:46px}.logo{transform:translateY(-5px)}}
+
+/* Definitive: show only original Flora Pura mark; no Naivasha text and no underline */
+.brand-location{display:none!important}
+.brand-group{width:170px!important;height:46px!important;overflow:hidden!important;display:block!important}
+.brand-group .logo{display:block!important;width:170px!important;height:auto!important;transform:translateY(-18px)!important;margin:0!important}
+@media(max-width:700px){
+ .brand-group{width:135px!important;height:37px!important}
+ .brand-group .logo{width:135px!important;transform:translateY(-14px)!important}
+}
