@@ -40,3 +40,32 @@
  .cover-brand .brand-location{width:165px!important;font-size:10px!important;letter-spacing:.17em!important}
  .hero-copy{padding-top:165px!important}
 }
+
+/* Final compact one-screen cover layout */
+.cover{height:100svh;min-height:620px}
+.cover-brand{top:24px!important;left:7vw!important;width:190px!important}
+.cover-brand .cover-logo{display:block!important;position:static!important;width:190px!important;height:92px!important;object-fit:cover!important;object-position:center 39%!important;margin:0!important;padding:0!important}
+.cover-brand .brand-rule{width:190px!important;height:2px!important;margin:2px 0 6px!important}
+.cover-brand .brand-location{width:190px!important;font-size:10px!important;letter-spacing:.17em!important;line-height:1.15!important}
+.hero-copy{height:100svh!important;min-height:620px!important;justify-content:flex-start!important;padding:205px 7vw 64px!important;max-width:780px!important}
+.hero-copy h1{font-size:clamp(46px,6.4vw,88px)!important;line-height:.94!important;margin-bottom:22px!important}
+.intro{font-size:clamp(15px,1.25vw,18px)!important;line-height:1.45!important;max-width:590px!important;margin-bottom:24px!important}
+.enter{font-size:13px!important;padding-bottom:8px!important}
+.cover-footer{bottom:18px!important}
+@media(max-height:760px) and (min-width:701px){
+ .cover-brand{top:18px!important}
+ .cover-brand .cover-logo{height:76px!important}
+ .hero-copy{padding-top:165px!important}
+ .hero-copy h1{font-size:clamp(42px,5.7vw,72px)!important;margin-bottom:16px!important}
+ .intro{font-size:15px!important;margin-bottom:18px!important}
+}
+@media(max-width:700px){
+ .cover{min-height:620px}
+ .cover-brand{top:16px!important;left:22px!important;width:150px!important}
+ .cover-brand .cover-logo{width:150px!important;height:72px!important}
+ .cover-brand .brand-rule{width:150px!important}
+ .cover-brand .brand-location{width:150px!important;font-size:9px!important;letter-spacing:.14em!important}
+ .hero-copy{min-height:620px!important;padding:160px 22px 62px!important}
+ .hero-copy h1{font-size:clamp(42px,12vw,58px)!important;line-height:.94!important;margin-bottom:18px!important}
+ .intro{font-size:15px!important;line-height:1.4!important;margin-bottom:20px!important}
+}
