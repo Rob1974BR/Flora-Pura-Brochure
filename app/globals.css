@@ -32,3 +32,6 @@
  .brand-group{width:150px!important}
  .brand-group .logo{width:150px!important}
 }
+
+/* Approved cover: align only the logo's left edge with the text column below */
+.brand-group{transform:translateX(0)!important}
