@@ -7,3 +7,10 @@
 .brand-rule{width:100%;height:3px;background:var(--pink);margin:7px 0 7px}
 .brand-lockup .brand-location{margin:0;padding:0;font-size:12px;font-weight:700;line-height:1;letter-spacing:.22em;color:var(--pink);white-space:nowrap;text-align:left}
 @media(max-width:700px){.brand-wordmark{font-size:42px}.brand-lockup{margin-bottom:26px}.brand-lockup .brand-location{font-size:11px}}
+
+/* Cover brand position: fixed to the LEFT, aligned with hero text */
+.cover-brand{position:absolute;z-index:4;top:34px;left:7vw;display:flex;flex-direction:column;align-items:flex-start;width:max-content;margin:0;padding:0}
+.cover-brand .brand-wordmark{margin:0;padding:0;font-size:clamp(42px,4.1vw,64px);font-weight:700;line-height:.92;letter-spacing:-.055em;color:#fff}
+.cover-brand .brand-rule{width:100%;height:3px;background:var(--pink);margin:7px 0 7px}
+.cover-brand .brand-location{margin:0;padding:0;font-size:12px;font-weight:700;line-height:1;letter-spacing:.22em;color:var(--pink);white-space:nowrap;text-align:left}
+@media(max-width:700px){.cover-brand{top:22px;left:22px}.cover-brand .brand-wordmark{font-size:42px}.cover-brand .brand-location{font-size:11px}}
