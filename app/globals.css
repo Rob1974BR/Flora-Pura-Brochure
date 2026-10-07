@@ -15,3 +15,12 @@
  .brand-group{width:135px!important;height:37px!important}
  .brand-group .logo{width:135px!important;transform:translateY(-14px)!important}
 }
+
+/* Fix: restore complete original logo; remove only separate Naivasha text. */
+.brand-group{width:170px!important;height:auto!important;overflow:visible!important;display:block!important}
+.brand-group .logo{display:block!important;width:170px!important;height:auto!important;transform:none!important;margin:0!important;clip-path:none!important}
+.brand-location{display:none!important}
+@media(max-width:700px){
+ .brand-group{width:135px!important;height:auto!important;overflow:visible!important}
+ .brand-group .logo{width:135px!important;height:auto!important;transform:none!important}
+}
