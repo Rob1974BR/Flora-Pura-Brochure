@@ -24,3 +24,11 @@
  .brand-group{width:135px!important;height:auto!important;overflow:visible!important}
  .brand-group .logo{width:135px!important;height:auto!important;transform:none!important}
 }
+
+/* Approved cover: only enlarge logo slightly; keep all other layout unchanged */
+.brand-group{width:190px!important}
+.brand-group .logo{width:190px!important}
+@media(max-width:700px){
+ .brand-group{width:150px!important}
+ .brand-group .logo{width:150px!important}
+}
