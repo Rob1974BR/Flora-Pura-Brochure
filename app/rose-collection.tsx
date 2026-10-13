@@ -1,7 +1,7 @@
 'use client'
 import { useMemo, useState } from 'react'
 
-export type Rose = { number: number; variety: string; colour: string; thorns: string; profile: string; length: string; dominantLength: string; headsize: string; packing?: {length: string; quantity: string}[] }
+export type Rose = { number: number; variety: string; colour: string; thorns: string; profile: string; length: string; dominantLength: string; headsize: string; packing?: {length: string; quantity: string}[]; photo?: string }
 const colourGroup = (colour: string) => {
   const c = colour.toLowerCase()
   if (c.includes('bi ') || c.includes('bi colour')) return 'Bicolour'
@@ -35,7 +35,7 @@ export default function RoseCollection({ roses }: { roses: Rose[] }) {
     </div>
     <div className="fp-grid">
       {filtered.map(r => <button key={r.variety} type="button" className="fp-card" onClick={() => setSelected(r)} aria-label={'View details for '+r.variety}>
-        <div className="fp-photo-placeholder"><span className="fp-photo-mark">FLORA PURA</span><span className="fp-photo-pending">PHOTO COMING SOON</span></div>
+        <div className="fp-photo-placeholder"><span className="fp-photo-mark">FLORA PURA</span><span className="fp-photo-pending">PHOTO COMING SOON</span>{r.photo && <img className="fp-rose-photo" src={r.photo} alt={r.variety} onError={e => { e.currentTarget.style.display = "none" }} />}</div>
         <div className="fp-card-body"><span className="fp-card-colour">{r.colour}</span><h3>{r.variety}</h3><p>Length {r.length} cm <span aria-hidden="true">↗</span></p></div>
       </button>)}
     </div>
@@ -43,7 +43,7 @@ export default function RoseCollection({ roses }: { roses: Rose[] }) {
     {selected && <div className="fp-modal-backdrop" onClick={() => setSelected(null)}>
       <div className="fp-modal" role="dialog" aria-modal="true" aria-label={selected.variety+' details'} onClick={e=>e.stopPropagation()}>
         <button className="fp-close" type="button" onClick={()=>setSelected(null)} aria-label="Close details">×</button>
-        <div className="fp-modal-placeholder">FLORA PURA<br/><small>PHOTO COMING SOON</small></div>
+        <div className="fp-modal-placeholder">FLORA PURA<br/><small>PHOTO COMING SOON</small>{selected.photo && <img className="fp-rose-photo" src={selected.photo} alt={selected.variety} onError={e => { e.currentTarget.style.display = "none" }} />}</div>
         <div className="fp-modal-content fp-detail-content"><div className="fp-detail-heading"><h2>{selected.variety}</h2><span>VIEW DETAILS</span></div><div className="fp-detail-accent" />
           <dl className="fp-detail-specs">
             <div><dt>COLOUR</dt><dd>{selected.colour}</dd></div>
