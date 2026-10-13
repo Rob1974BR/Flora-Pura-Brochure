@@ -4,6 +4,7 @@ const roses: Rose[] = [
   {
     "number": 1,
     "variety": "Attraction",
+    "photo": "/roses/attraction.jpg",
     "packing": [{"length":"35","quantity":"280"},{"length":"40","quantity":"260"},{"length":"50","quantity":"240"},{"length":"60","quantity":"160"},{"length":"70","quantity":"140"}],
     "colour": "Bi Colour Red White",
     "thorns": "Medium",
@@ -15,6 +16,7 @@ const roses: Rose[] = [
   {
     "number": 2,
     "variety": "Countdown",
+    "photo": "/roses/countdown.jpg",
     "packing": [{"length":"35","quantity":"400"},{"length":"40","quantity":"360"},{"length":"50","quantity":"320"},{"length":"60","quantity":"260"},{"length":"70","quantity":"200"}],
     "colour": "White",
     "thorns": "Medium",
@@ -26,6 +28,7 @@ const roses: Rose[] = [
   {
     "number": 3,
     "variety": "Eleganza",
+    "photo": "/roses/eleganza.jpg",
     "packing": [{"length":"35","quantity":"200"},{"length":"40","quantity":"180"},{"length":"50","quantity":"140"},{"length":"60","quantity":"120"},{"length":"70","quantity":"160"}],
     "colour": "Pink",
     "thorns": "Medium",
@@ -37,6 +40,7 @@ const roses: Rose[] = [
   {
     "number": 4,
     "variety": "Eudora",
+    "photo": "/roses/eudora.jpg",
     "packing": [{"length":"40","quantity":"300"},{"length":"50","quantity":"280"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Dark Pink",
     "thorns": "No",
@@ -48,6 +52,7 @@ const roses: Rose[] = [
   {
     "number": 5,
     "variety": "Eye Candy",
+    "photo": "/roses/eye-candy.jpg",
     "packing": [{"length":"35","quantity":"300"},{"length":"40","quantity":"280"},{"length":"50","quantity":"260"},{"length":"60","quantity":"200"},{"length":"70","quantity":"160"}],
     "colour": "Hot Pink",
     "thorns": "Medium",
@@ -59,7 +64,7 @@ const roses: Rose[] = [
   {
     "number": 6,
     "variety": "Fashion girl",
-    "photo": "/roses/Fashion%20Girl%20single.jpg",
+    "photo": "/roses/fashion-girl.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Bi  Colour Pink Green",
     "thorns": "Medium",
@@ -71,7 +76,7 @@ const roses: Rose[] = [
   {
     "number": 7,
     "variety": "Fiore",
-    "photo": "/roses/Fiore%20single.jpg",
+    "photo": "/roses/fiore.jpg",
     "packing": [{"length":"40","quantity":"280"},{"length":"50","quantity":"240"},{"length":"60","quantity":"200"},{"length":"70","quantity":"140"}],
     "colour": "Bi  Colour Cherry White",
     "thorns": "Medium",
@@ -83,6 +88,7 @@ const roses: Rose[] = [
   {
     "number": 8,
     "variety": "Firefly",
+    "photo": "/roses/firefly.jpg",
     "packing": [{"length":"40","quantity":"360"},{"length":"50","quantity":"320"},{"length":"60","quantity":"260"},{"length":"70","quantity":"200"}],
     "colour": "Bi Colour Orange Pink",
     "thorns": "No",
@@ -94,6 +100,7 @@ const roses: Rose[] = [
   {
     "number": 9,
     "variety": "Lady Lala",
+    "photo": "/roses/lady-lala.jpg",
     "packing": [{"length":"40","quantity":"320"},{"length":"50","quantity":"280"},{"length":"60","quantity":"200"},{"length":"70","quantity":"160"}],
     "colour": "Soft Pink",
     "thorns": "Medium",
@@ -105,6 +112,7 @@ const roses: Rose[] = [
   {
     "number": 10,
     "variety": "Marosa",
+    "photo": "/roses/marosa.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"300"},{"length":"50","quantity":"240"},{"length":"60","quantity":"200"}],
     "colour": "Bi Colour Cream Pink",
     "thorns": "Medium",
@@ -116,6 +124,7 @@ const roses: Rose[] = [
   {
     "number": 11,
     "variety": "Milan",
+    "photo": "/roses/milan.jpg",
     "packing": [{"length":"40","quantity":"300"},{"length":"50","quantity":"240"},{"length":"60","quantity":"180"},{"length":"70","quantity":"160"}],
     "colour": "Orange",
     "thorns": "Medium",
@@ -127,6 +136,7 @@ const roses: Rose[] = [
   {
     "number": 12,
     "variety": "Minion Rose",
+    "photo": "/roses/minion-rose.jpg",
     "packing": [{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Yellow",
     "thorns": "Medium",
@@ -138,6 +148,7 @@ const roses: Rose[] = [
   {
     "number": 13,
     "variety": "Mont Royal",
+    "photo": "/roses/mont-royal.jpg",
     "packing": [{"length":"35","quantity":"280"},{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"200"},{"length":"70","quantity":"180"},{"length":"80","quantity":"160"}],
     "colour": "White",
     "thorns": "Medium",
@@ -149,6 +160,7 @@ const roses: Rose[] = [
   {
     "number": 14,
     "variety": "Olivia",
+    "photo": "/roses/olivia.jpg",
     "packing": [{"length":"40","quantity":"340"},{"length":"50","quantity":"260"},{"length":"60","quantity":"200"},{"length":"70","quantity":"160"}],
     "colour": "Pink",
     "thorns": "Medium",
@@ -160,6 +172,7 @@ const roses: Rose[] = [
   {
     "number": 15,
     "variety": "Paloma",
+    "photo": "/roses/paloma.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"320"},{"length":"50","quantity":"280"},{"length":"60","quantity":"220"}],
     "colour": "Bi  Colour Cherry White",
     "thorns": "Medium",
@@ -171,7 +184,7 @@ const roses: Rose[] = [
   {
     "number": 16,
     "variety": "Paloma Steffi",
-    "photo": "/roses/Paloma%20Steffi.jpg",
+    "photo": "/roses/paloma-steffi.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"300"},{"length":"50","quantity":"260"},{"length":"60","quantity":"220"},{"length":"70","quantity":"200"}],
     "colour": "Pink",
     "thorns": "Medium",
@@ -183,6 +196,7 @@ const roses: Rose[] = [
   {
     "number": 17,
     "variety": "Princess Crown",
+    "photo": "/roses/princess-crown.jpg",
     "packing": [{"length":"35","quantity":"340"},{"length":"40","quantity":"300"},{"length":"50","quantity":"260"},{"length":"60","quantity":"200"},{"length":"70","quantity":"160"}],
     "colour": "Peach",
     "thorns": "Medium",
@@ -194,6 +208,7 @@ const roses: Rose[] = [
   {
     "number": 18,
     "variety": "Ramonda",
+    "photo": "/roses/ramonda.jpg",
     "packing": [{"length":"35","quantity":"420"},{"length":"40","quantity":"360"},{"length":"50","quantity":"340"},{"length":"60","quantity":"260"},{"length":"70","quantity":"200"}],
     "colour": "Pink",
     "thorns": "Medium",
@@ -205,6 +220,7 @@ const roses: Rose[] = [
   {
     "number": 19,
     "variety": "Renaissance",
+    "photo": "/roses/renaissance.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"280"},{"length":"50","quantity":"260"},{"length":"60","quantity":"200"},{"length":"70","quantity":"160"}],
     "colour": "Pink",
     "thorns": "Medium",
@@ -216,6 +232,7 @@ const roses: Rose[] = [
   {
     "number": 20,
     "variety": "Satsuma",
+    "photo": "/roses/satsuma.jpg",
     "packing": [{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Orange",
     "thorns": "Medium",
@@ -227,6 +244,7 @@ const roses: Rose[] = [
   {
     "number": 21,
     "variety": "Shocking blue",
+    "photo": "/roses/shocking-blue.jpg",
     "packing": [{"length":"40","quantity":"420"},{"length":"50","quantity":"300"},{"length":"60","quantity":"260"},{"length":"70","quantity":"200"}],
     "colour": "Lavender",
     "thorns": "No",
@@ -238,6 +256,7 @@ const roses: Rose[] = [
   {
     "number": 22,
     "variety": "Solarflare",
+    "photo": "/roses/solarflare.jpg",
     "packing": [{"length":"40","quantity":"400"},{"length":"50","quantity":"340"},{"length":"60","quantity":"260"},{"length":"70","quantity":"200"}],
     "colour": "Orange",
     "thorns": "No",
@@ -249,6 +268,7 @@ const roses: Rose[] = [
   {
     "number": 23,
     "variety": "Victoria Park",
+    "photo": "/roses/victoria-park.jpg",
     "packing": [{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Orange",
     "thorns": "Medium",
@@ -260,6 +280,7 @@ const roses: Rose[] = [
   {
     "number": 24,
     "variety": "Victorious",
+    "photo": "/roses/victorious.jpg",
     "packing": [{"length":"40","quantity":"200"},{"length":"50","quantity":"180"},{"length":"60","quantity":"160"},{"length":"70","quantity":"140"},{"length":"80","quantity":"140"}],
     "colour": "Red",
     "thorns": "No",
@@ -271,6 +292,7 @@ const roses: Rose[] = [
   {
     "number": 25,
     "variety": "Wasabi",
+    "photo": "/roses/wasabi.jpg",
     "packing": [{"length":"35","quantity":"260"},{"length":"40","quantity":"240"},{"length":"50","quantity":"220"},{"length":"60","quantity":"220"},{"length":"70","quantity":"180"}],
     "colour": "Green",
     "thorns": "Medium",
