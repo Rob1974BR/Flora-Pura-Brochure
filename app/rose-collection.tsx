@@ -1,7 +1,7 @@
 'use client'
 import { useMemo, useState } from 'react'
 
-export type Rose = { number: number; variety: string; colour: string; thorns: string; profile: string; length: string; dominantLength: string; headsize: string }
+export type Rose = { number: number; variety: string; colour: string; thorns: string; profile: string; length: string; dominantLength: string; headsize: string; packing?: {length: string; quantity: string}[] }
 const colourGroup = (colour: string) => {
   const c = colour.toLowerCase()
   if (c.includes('bi ') || c.includes('bi colour')) return 'Bicolour'
@@ -44,15 +44,18 @@ export default function RoseCollection({ roses }: { roses: Rose[] }) {
       <div className="fp-modal" role="dialog" aria-modal="true" aria-label={selected.variety+' details'} onClick={e=>e.stopPropagation()}>
         <button className="fp-close" type="button" onClick={()=>setSelected(null)} aria-label="Close details">×</button>
         <div className="fp-modal-placeholder">FLORA PURA<br/><small>PHOTO COMING SOON</small></div>
-        <div className="fp-modal-content"><p className="fp-kicker">OUR COLLECTION</p><h2>{selected.variety}</h2>
-          <dl>
-            <div><dt>Colour</dt><dd>{selected.colour}</dd></div>
-            <div><dt>Available lengths</dt><dd>{selected.length} cm</dd></div>
-            <div><dt>Dominant length</dt><dd>{selected.dominantLength} cm</dd></div>
-            <div><dt>Head size</dt><dd>{selected.headsize}</dd></div>
-            <div><dt>Profile type</dt><dd>{selected.profile}</dd></div>
-            <div><dt>Thorns</dt><dd>{selected.thorns}</dd></div>
+        <div className="fp-modal-content fp-detail-content"><div className="fp-detail-heading"><h2>{selected.variety}</h2><span>VIEW DETAILS</span></div><div className="fp-detail-accent" />
+          <dl className="fp-detail-specs">
+            <div><dt>COLOUR</dt><dd>{selected.colour}</dd></div>
+            <div><dt>STEM LENGTH</dt><dd>{selected.length} cm</dd></div>
+            <div><dt>DOMINANT LENGTH</dt><dd>{selected.dominantLength} cm</dd></div>
+            <div><dt>HEAD SIZE</dt><dd>{selected.headsize}</dd></div>
+            <div><dt>THORNS</dt><dd>{selected.thorns}</dd></div>
+            <div><dt>PROFILE</dt><dd>{selected.profile}</dd></div>
           </dl>
+          <div className="fp-packing"><div className="fp-packing-title">APPROX. PACKING / BOX</div>
+            {selected.packing?.length ? <div className="fp-packing-grid">{selected.packing.map((p,i)=><div key={i}><strong>{p.length} CM</strong><span>{p.quantity}</span></div>)}</div> : <p className="fp-packing-pending">Packing rates to be added from Flora Pura packing list.</p>}
+          </div>
           <button className="fp-back" onClick={()=>setSelected(null)} type="button">← Back to collection</button>
         </div>
       </div>
