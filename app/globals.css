@@ -35,3 +35,43 @@
 
 /* Approved cover: align only the logo's left edge with the text column below */
 .brand-group{transform:translateX(0)!important}
+
+
+/* Flora Pura collection only — approved cover styles above remain unchanged */
+.fp-collection{position:relative;z-index:3;background:#fff;color:#202020;min-height:75svh;padding:92px max(22px,7vw) 110px}
+.fp-collection-head{max-width:1320px;margin:0 auto 30px}
+.fp-kicker{color:#ed1975;font-size:11px;font-weight:700;letter-spacing:.2em;margin:0 0 18px}
+.fp-collection h2{font-size:clamp(44px,6vw,82px);font-weight:500;letter-spacing:-.055em;line-height:1;margin:0 0 18px}
+.fp-collection-intro{font-size:17px;line-height:1.6;color:#666;margin:0 0 34px}
+.fp-tools{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.fp-filters{display:flex;flex-wrap:wrap;gap:8px}
+.fp-filter{border:1px solid #e0e0e0;border-radius:999px;padding:10px 15px;background:#fff;color:#444;font-size:12px;cursor:pointer;transition:background .2s}
+.fp-filter:hover{border-color:#ed1975}
+.fp-filter.active{background:#ed1975;border-color:#ed1975;color:white}
+.fp-search input{border:1px solid #ddd;border-radius:999px;padding:12px 17px;min-width:220px;background:#fff;color:#222;outline-color:#ed1975;font-size:13px}
+.fp-count{font-size:12px;color:#777;margin-top:20px}
+.fp-grid{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.fp-card{padding:0;text-align:left;border:1px solid #eee;background:#fff;color:#202020;cursor:pointer;overflow:hidden;transition:box-shadow .2s,transform .2s}
+.fp-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #00000012}
+.fp-photo-placeholder{height:260px;background:linear-gradient(145deg,#f9f4f5,#f1e8eb);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+.fp-photo-mark{font-size:20px;letter-spacing:.15em;color:#c2a8b1;font-weight:600}
+.fp-photo-pending{font-size:9px;letter-spacing:.17em;color:#b5a3aa}
+.fp-card-body{padding:20px 19px 21px}
+.fp-card-colour{font-size:11px;color:#ed1975}
+.fp-card h3{font-size:23px;font-weight:500;letter-spacing:-.03em;margin:7px 0 12px}
+.fp-card p{font-size:12px;color:#777;margin:0;display:flex;justify-content:space-between}
+.fp-empty{color:#666;padding:30px 0}
+.fp-modal-backdrop{position:fixed;inset:0;z-index:50;background:#000b;display:flex;align-items:center;justify-content:center;padding:20px}
+.fp-modal{position:relative;background:white;color:#222;display:grid;grid-template-columns:1fr 1fr;width:min(860px,100%);max-height:90vh;overflow:auto}
+.fp-close{position:absolute;right:14px;top:10px;z-index:2;background:white;border:0;font-size:30px;cursor:pointer;color:#333;width:40px;height:40px}
+.fp-modal-placeholder{background:#f7eff2;color:#b6a0a8;min-height:430px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;font-size:23px;letter-spacing:.15em}
+.fp-modal-placeholder small{font-size:10px}
+.fp-modal-content{padding:55px 42px}
+.fp-modal-content h2{font-size:44px;margin:0 0 30px}
+.fp-modal dl{margin:0}
+.fp-modal dl div{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-bottom:1px solid #eee;font-size:13px}
+.fp-modal dt{color:#888}.fp-modal dd{margin:0;text-align:right}
+.fp-back{background:transparent;border:0;color:#ed1975;cursor:pointer;margin-top:28px;padding:0;font-weight:600}
+@media(max-width:1100px){.fp-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:750px){.fp-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.fp-collection{padding:70px 22px 80px}.fp-photo-placeholder{height:210px}.fp-card-body{padding:14px}.fp-card h3{font-size:19px}.fp-modal{grid-template-columns:1fr}.fp-modal-placeholder{min-height:200px}.fp-modal-content{padding:32px 24px}.fp-tools{align-items:stretch}.fp-search input{width:100%}}
+@media(max-width:390px){.fp-grid{grid-template-columns:1fr}.fp-photo-placeholder{height:240px}}
