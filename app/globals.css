@@ -94,3 +94,7 @@
 .fp-packing-grid span{font-size:14px}
 .fp-packing-pending{font-size:12px;line-height:1.5;color:#8d6f7c;margin:0}
 @media(max-width:750px){.fp-detail-content{padding:28px 22px}.fp-modal .fp-detail-specs{gap:20px 12px}.fp-detail-heading span{font-size:9px}.fp-packing{padding:18px 13px}.fp-packing-grid>div{gap:7px}}
+
+/* Show original uploaded rose images inside the existing collection and detail design */
+.fp-photo-placeholder,.fp-modal-placeholder{position:relative;overflow:hidden}
+.fp-rose-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;display:block}
