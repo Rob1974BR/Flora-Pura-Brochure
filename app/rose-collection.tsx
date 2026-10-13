@@ -49,7 +49,7 @@ export default function RoseCollection({ roses }: { roses: Rose[] }) {
             <div><dt>COLOUR</dt><dd>{selected.colour}</dd></div>
             <div><dt>STEM LENGTH</dt><dd>{selected.length} cm</dd></div>
             <div><dt>DOMINANT LENGTH</dt><dd>{selected.dominantLength} cm</dd></div>
-            <div><dt>HEAD SIZE</dt><dd>{selected.headsize}</dd></div>
+            <div><dt>HEAD SIZE</dt><dd>{selected.headsize.replace(/\s*cm\s*$/i, '').trim()} cm</dd></div>
             <div><dt>THORNS</dt><dd>{selected.thorns}</dd></div>
             <div><dt>PROFILE</dt><dd>{selected.profile}</dd></div>
           </dl>
