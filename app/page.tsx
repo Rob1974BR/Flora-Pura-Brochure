@@ -1,3 +1,258 @@
+import RoseCollection, { type Rose } from './rose-collection'
+
+const roses: Rose[] = [
+  {
+    "number": 1,
+    "variety": "Attraction",
+    "colour": "Bi Colour Red White",
+    "thorns": "Medium",
+    "profile": "Medium -Long",
+    "length": "40-60",
+    "dominantLength": "50",
+    "headsize": "5CM"
+  },
+  {
+    "number": 2,
+    "variety": "Countdown",
+    "colour": "White",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-60",
+    "dominantLength": "40",
+    "headsize": "5CM"
+  },
+  {
+    "number": 3,
+    "variety": "Eleganza",
+    "colour": "Pink",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-60",
+    "dominantLength": "40",
+    "headsize": "6CM"
+  },
+  {
+    "number": 4,
+    "variety": "Eudora",
+    "colour": "Dark Pink",
+    "thorns": "No",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60/70",
+    "headsize": "5CM"
+  },
+  {
+    "number": 5,
+    "variety": "Eye Candy",
+    "colour": "Hot Pink",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60",
+    "headsize": "5.5CM"
+  },
+  {
+    "number": 6,
+    "variety": "Fashion girl",
+    "colour": "Bi  Colour Pink Green",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60/70",
+    "headsize": "5CM"
+  },
+  {
+    "number": 7,
+    "variety": "Fiore",
+    "colour": "Bi  Colour Cherry White",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "70",
+    "headsize": "6CM"
+  },
+  {
+    "number": 8,
+    "variety": "Firefly",
+    "colour": "Bi Colour Orange Pink",
+    "thorns": "No",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60/70",
+    "headsize": "5CM"
+  },
+  {
+    "number": 9,
+    "variety": "Lady Lala",
+    "colour": "Soft Pink",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60/70",
+    "headsize": "5CM"
+  },
+  {
+    "number": 10,
+    "variety": "Marosa",
+    "colour": "Bi Colour Cream Pink",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-60",
+    "dominantLength": "40/60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 11,
+    "variety": "Milan",
+    "colour": "Orange",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 12,
+    "variety": "Minion Rose",
+    "colour": "Yellow",
+    "thorns": "Medium",
+    "profile": "Medium -Long",
+    "length": "40-70",
+    "dominantLength": "50",
+    "headsize": "5CM"
+  },
+  {
+    "number": 13,
+    "variety": "Mont Royal",
+    "colour": "White",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-70",
+    "dominantLength": "60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 14,
+    "variety": "Olivia",
+    "colour": "Pink",
+    "thorns": "Medium",
+    "profile": "Medium -Long",
+    "length": "40-70",
+    "dominantLength": "50/60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 15,
+    "variety": "Paloma",
+    "colour": "Bi  Colour Cherry White",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-50",
+    "dominantLength": "40",
+    "headsize": "5CM"
+  },
+  {
+    "number": 16,
+    "variety": "Paloma Steffi",
+    "colour": "Pink",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-60",
+    "dominantLength": "40",
+    "headsize": "5CM"
+  },
+  {
+    "number": 17,
+    "variety": "Princess Crown",
+    "colour": "Peach",
+    "thorns": "Medium",
+    "profile": "Medium -Long",
+    "length": "40-70",
+    "dominantLength": "50/60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 18,
+    "variety": "Ramonda",
+    "colour": "Pink",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "35-60",
+    "dominantLength": "40",
+    "headsize": "5CM"
+  },
+  {
+    "number": 19,
+    "variety": "Renaissance",
+    "colour": "Pink",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "40-70",
+    "dominantLength": "40/60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 20,
+    "variety": "Satsuma",
+    "colour": "Orange",
+    "thorns": "Medium",
+    "profile": "Medium -Long",
+    "length": "40-70",
+    "dominantLength": "50",
+    "headsize": "5CM"
+  },
+  {
+    "number": 21,
+    "variety": "Shocking blue",
+    "colour": "Lavender",
+    "thorns": "No",
+    "profile": "Long",
+    "length": "40-60",
+    "dominantLength": "60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 22,
+    "variety": "Solarflare",
+    "colour": "Orange",
+    "thorns": "No",
+    "profile": "Medium- Long",
+    "length": "40-70",
+    "dominantLength": "50",
+    "headsize": "5CM"
+  },
+  {
+    "number": 23,
+    "variety": "Victoria Park",
+    "colour": "Orange",
+    "thorns": "Medium",
+    "profile": "Long",
+    "length": "40-60",
+    "dominantLength": "60",
+    "headsize": "5CM"
+  },
+  {
+    "number": 24,
+    "variety": "Victorious",
+    "colour": "Red",
+    "thorns": "No",
+    "profile": "Long",
+    "length": "40-80",
+    "dominantLength": "80",
+    "headsize": "5.5CM"
+  },
+  {
+    "number": 25,
+    "variety": "Wasabi",
+    "colour": "Green",
+    "thorns": "Medium",
+    "profile": "Medium- Long",
+    "length": "40-60",
+    "dominantLength": "60",
+    "headsize": "5CM"
+  }
+]
+
 export default function Page() {
   return (
     <main className="cover">
@@ -15,11 +270,7 @@ export default function Page() {
         <a className="enter" href="#collection">Discover our collection <span>→</span></a>
       </section>
       <footer className="cover-footer"><span>FLORA PURA</span><span>FROM KENYA WITH CARE</span></footer>
-      <section id="collection" className="next-section">
-        <p className="eyebrow dark">THE COLLECTION</p>
-        <h2>Our roses</h2>
-        <p>The Flora Pura assortment and colour filters will be added in the next brochure step.</p>
-      </section>
+      <RoseCollection roses={roses} />
     </main>
   )
 }
