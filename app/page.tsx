@@ -59,6 +59,7 @@ const roses: Rose[] = [
   {
     "number": 6,
     "variety": "Fashion girl",
+    "photo": "/roses/Fashion%20Girl%20single.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"340"},{"length":"50","quantity":"300"},{"length":"60","quantity":"220"},{"length":"70","quantity":"160"}],
     "colour": "Bi  Colour Pink Green",
     "thorns": "Medium",
@@ -70,6 +71,7 @@ const roses: Rose[] = [
   {
     "number": 7,
     "variety": "Fiore",
+    "photo": "/roses/Fiore%20single.jpg",
     "packing": [{"length":"40","quantity":"280"},{"length":"50","quantity":"240"},{"length":"60","quantity":"200"},{"length":"70","quantity":"140"}],
     "colour": "Bi  Colour Cherry White",
     "thorns": "Medium",
@@ -169,6 +171,7 @@ const roses: Rose[] = [
   {
     "number": 16,
     "variety": "Paloma Steffi",
+    "photo": "/roses/Paloma%20Steffi.jpg",
     "packing": [{"length":"35","quantity":"360"},{"length":"40","quantity":"300"},{"length":"50","quantity":"260"},{"length":"60","quantity":"220"},{"length":"70","quantity":"200"}],
     "colour": "Pink",
     "thorns": "Medium",
