@@ -145,3 +145,10 @@ html{scroll-behavior:smooth;scroll-padding-top:86px}
 /* Match page 3 pink exactly to Back to collection (#ed1975) */
 .fp-story h3,.fp-story-eyebrow,.fp-story-signature em{color:#ed1975!important}
 .fp-site-links a:hover,.fp-site-links a:focus-visible{color:#ed1975!important}
+
+/* Flora Pura brand pink: identical to the All roses active filter */
+.fp-story .fp-story-eyebrow,.fp-story h3,.fp-story .fp-story-signature em{color:var(--pink)!important}
+.fp-story .fp-story-signature{border-top-color:var(--pink)!important}
+.fp-detail-heading span,.fp-detail-accent,.fp-back,.fp-card-colour,.fp-kicker{color:var(--pink)}
+.fp-detail-accent{background:var(--pink)}
+.fp-packing{border-left-color:var(--pink)}
