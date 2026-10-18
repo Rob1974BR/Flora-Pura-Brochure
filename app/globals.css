@@ -98,3 +98,6 @@
 /* Show original uploaded rose images inside the existing collection and detail design */
 .fp-photo-placeholder,.fp-modal-placeholder{position:relative;overflow:hidden}
 .fp-rose-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;display:block}
+
+/* Larger presentation for four Flora Pura rose photographs */
+.fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.24);transform-origin:center center}
