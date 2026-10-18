@@ -158,3 +158,19 @@ html{scroll-behavior:smooth;scroll-padding-top:86px}
 .cover{padding-top:100px}
 #home,#collection,#our-story{scroll-margin-top:105px}
 @media(max-width:600px){.cover{padding-top:88px}#home,#collection,#our-story{scroll-margin-top:94px}.fp-site-nav{flex-wrap:nowrap}}
+
+/* Editorial story layout: original Flora Pura photographs and unaltered copy */
+.fp-story{padding:76px clamp(20px,5vw,76px) 100px!important}
+.fp-story-inner{max-width:1250px!important}
+.fp-story-inner>h2{margin-bottom:45px!important}
+.fp-story-feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(28px,5vw,75px);padding:30px 0 55px;border-bottom:1px solid #f1e8ed}
+.fp-story-feature-reverse .fp-story-feature-media{grid-column:1;grid-row:1}
+.fp-story-feature-reverse .fp-story-feature-copy{grid-column:2;grid-row:1}
+.fp-story-feature-copy h3{margin:0 0 23px!important;font-size:clamp(25px,2.8vw,36px)!important}
+.fp-story-feature-copy p{font-size:clamp(14px,1.2vw,16px);line-height:1.7;margin-bottom:14px}
+.fp-story-feature-media{min-width:0}
+.fp-story-image{width:100%;height:auto;max-height:500px;object-fit:cover;display:block;border-radius:12px;box-shadow:0 14px 35px #28111d14}
+.fp-story-closing{max-width:950px;margin:65px auto 0;padding:40px clamp(22px,5vw,65px);background:#fff7fa;border-radius:18px}
+.fp-story-closing h3{margin:0 0 22px!important}
+.fp-story-closing p{font-size:16px;line-height:1.7}
+@media(max-width:760px){.fp-story{padding:55px 20px 70px!important}.fp-story-feature{grid-template-columns:1fr;gap:20px;padding:20px 0 38px}.fp-story-feature-reverse .fp-story-feature-copy,.fp-story-feature-reverse .fp-story-feature-media{grid-column:auto;grid-row:auto}.fp-story-feature-media{grid-row:1!important}.fp-story-feature-copy{grid-row:2!important}.fp-story-image{max-height:390px}.fp-story-closing{margin-top:35px;padding:28px 22px}}
