@@ -106,3 +106,16 @@
 /* Adjust only collection-card framing for four roses; detail view remains unchanged */
 .fp-photo-placeholder .fp-rose-photo:is([alt="Eleganza"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.45);transform-origin:center center}
 .fp-photo-placeholder .fp-rose-photo[alt="Fashion Girl"]{transform:scale(1.85);transform-origin:center center}
+
+
+/* Flora Pura — approved story page, separate from rose collection */
+.fp-story{background:#fffafc;color:#272936;padding:100px 24px 110px;scroll-margin-top:20px}
+.fp-story-inner{max-width:880px;margin:0 auto}
+.fp-story-eyebrow{font-size:12px!important;letter-spacing:.22em;color:#a94d78;font-weight:700;margin-bottom:18px!important}
+.fp-story h2{font-size:clamp(32px,5vw,56px);line-height:1.1;letter-spacing:-.035em;margin:0 0 38px;color:#262936}
+.fp-story h3{font-size:clamp(21px,2.6vw,29px);font-weight:600;line-height:1.25;color:#b4527e;margin:48px 0 19px}
+.fp-story p{font-size:17px;line-height:1.85;margin:0 0 20px;max-width:790px}
+.fp-story-signature{display:flex;flex-direction:column;gap:5px;border-top:1px solid #eddce4;padding-top:27px;margin-top:42px!important}
+.fp-story-signature strong{letter-spacing:.16em;font-size:17px}
+.fp-story-signature em{font-size:15px;color:#995473}
+@media(max-width:750px){.fp-story{padding:65px 22px 75px}.fp-story p{font-size:15px;line-height:1.75}.fp-story h3{margin-top:36px}}
