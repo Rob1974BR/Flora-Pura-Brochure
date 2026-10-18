@@ -152,3 +152,9 @@ html{scroll-behavior:smooth;scroll-padding-top:86px}
 .fp-detail-heading span,.fp-detail-accent,.fp-back,.fp-card-colour,.fp-kicker{color:var(--pink)}
 .fp-detail-accent{background:var(--pink)}
 .fp-packing{border-left-color:var(--pink)}
+
+/* Fixed brochure navigation on every section; retain original Flora Pura logo */
+.fp-site-nav{position:fixed!important;top:0;left:0;right:0;width:100%;z-index:100!important;background:#090909!important}
+.cover{padding-top:100px}
+#home,#collection,#our-story{scroll-margin-top:105px}
+@media(max-width:600px){.cover{padding-top:88px}#home,#collection,#our-story{scroll-margin-top:94px}.fp-site-nav{flex-wrap:nowrap}}
