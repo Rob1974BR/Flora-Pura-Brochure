@@ -100,4 +100,4 @@
 .fp-rose-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;display:block}
 
 /* Larger presentation for four Flora Pura rose photographs */
-.fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.9);transform-origin:center center}
+.fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.8);transform-origin:center center}
