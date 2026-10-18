@@ -104,4 +104,5 @@
 .fp-modal-placeholder .fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){inset:10%;width:80%;height:80%;object-fit:contain}
 
 /* Adjust only collection-card framing for four roses; detail view remains unchanged */
-.fp-photo-placeholder .fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.45);transform-origin:center center}
+.fp-photo-placeholder .fp-rose-photo:is([alt="Eleganza"],[alt="Lady Lala"],[alt="Olivia"]){transform:scale(1.45);transform-origin:center center}
+.fp-photo-placeholder .fp-rose-photo[alt="Fashion Girl"]{transform:scale(1.6);transform-origin:center center}
