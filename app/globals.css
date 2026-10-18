@@ -119,3 +119,13 @@
 .fp-story-signature strong{letter-spacing:.16em;font-size:17px}
 .fp-story-signature em{font-size:15px;color:#995473}
 @media(max-width:750px){.fp-story{padding:65px 22px 75px}.fp-story p{font-size:15px;line-height:1.75}.fp-story h3{margin-top:36px}}
+
+/* Persistent Equinox-inspired dark navigation; original Flora Pura identity */
+html{scroll-behavior:smooth;scroll-padding-top:86px}
+.fp-site-nav{position:sticky;top:0;z-index:90;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px;padding:9px clamp(18px,4vw,62px);background:#242838;color:#fff;box-shadow:0 2px 16px rgba(0,0,0,.13)}
+.fp-site-brand{display:flex;align-items:center;flex-shrink:0}
+.fp-site-brand img{display:block;width:104px;height:55px;object-fit:contain}
+.fp-site-links{display:flex;gap:clamp(12px,2.7vw,38px);align-items:center;flex-wrap:wrap}
+.fp-site-links a{font-size:12px;letter-spacing:.075em;color:#f4f2f4;text-decoration:none;font-weight:600;transition:color .15s}
+.fp-site-links a:hover,.fp-site-links a:focus-visible{color:#f0a9c9}
+@media(max-width:600px){.fp-site-nav{padding:8px 13px;gap:8px;min-height:70px}.fp-site-brand img{width:75px;height:47px}.fp-site-links{gap:8px 13px;justify-content:flex-end}.fp-site-links a{font-size:10px;letter-spacing:0}}
