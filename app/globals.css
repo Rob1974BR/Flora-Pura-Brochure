@@ -129,3 +129,15 @@ html{scroll-behavior:smooth;scroll-padding-top:86px}
 .fp-site-links a{font-size:12px;letter-spacing:.075em;color:#f4f2f4;text-decoration:none;font-weight:600;transition:color .15s}
 .fp-site-links a:hover,.fp-site-links a:focus-visible{color:#f0a9c9}
 @media(max-width:600px){.fp-site-nav{padding:8px 13px;gap:8px;min-height:70px}.fp-site-brand img{width:75px;height:47px}.fp-site-links{gap:8px 13px;justify-content:flex-end}.fp-site-links a{font-size:10px;letter-spacing:0}}
+
+/* Approved consistent Flora Pura pink identity across pages */
+.fp-site-nav{background:#090909!important;min-height:100px!important;padding:14px clamp(20px,4vw,64px)!important}
+.fp-site-brand img{width:142px!important;height:72px!important}
+.fp-site-links a{font-size:14px!important;color:#fff!important}
+.fp-site-links a:hover,.fp-site-links a:focus-visible{color:#e6a2c0!important}
+.fp-story{background:#fff!important;color:#272936!important}
+.fp-story h2{color:#262936!important}
+.fp-story h3{color:#e6a2c0!important}
+.fp-story-eyebrow{color:#e6a2c0!important}
+.fp-story-signature em{color:#b56589!important}
+@media(max-width:600px){.fp-site-nav{min-height:88px!important;padding:10px 14px!important}.fp-site-brand img{width:104px!important;height:62px!important}.fp-site-links a{font-size:11px!important}}
