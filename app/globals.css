@@ -99,3 +99,6 @@
 .fp-photo-placeholder,.fp-modal-placeholder{position:relative;overflow:hidden}
 .fp-rose-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;display:block}
 
+
+/* Keep collection photos unchanged; reduce only these four detail-view photos */
+.fp-modal-placeholder .fp-rose-photo:is([alt="Eleganza"],[alt="Fashion Girl"],[alt="Lady Lala"],[alt="Olivia"]){inset:10%;width:80%;height:80%;object-fit:contain}
