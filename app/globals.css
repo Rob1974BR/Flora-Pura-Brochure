@@ -141,3 +141,7 @@ html{scroll-behavior:smooth;scroll-padding-top:86px}
 .fp-story-eyebrow{color:#e6a2c0!important}
 .fp-story-signature em{color:#b56589!important}
 @media(max-width:600px){.fp-site-nav{min-height:88px!important;padding:10px 14px!important}.fp-site-brand img{width:104px!important;height:62px!important}.fp-site-links a{font-size:11px!important}}
+
+/* Match page 3 pink exactly to Back to collection (#ed1975) */
+.fp-story h3,.fp-story-eyebrow,.fp-story-signature em{color:#ed1975!important}
+.fp-site-links a:hover,.fp-site-links a:focus-visible{color:#ed1975!important}
