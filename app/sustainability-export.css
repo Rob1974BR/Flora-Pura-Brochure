@@ -1,1 +1,20 @@
 .fp-new-page{position:relative;z-index:3;background:#fff;color:#191919;padding:95px 6vw 105px;font-family:Arial,Helvetica,sans-serif}.fp-new-export{background:#f8f8f8}.fp-new-wrap{max-width:1200px;margin:auto}.fp-new-kicker{color:#ed1975!important;font-size:12px!important;font-weight:700;letter-spacing:.18em;margin:0 0 14px!important}.fp-new-page h2{font-size:clamp(35px,5vw,66px);line-height:1.05;letter-spacing:-.04em;margin:0 0 36px;color:#171717}.fp-new-page h3{font-size:clamp(22px,2.2vw,29px);line-height:1.2;margin:18px 0 14px;color:#171717}.fp-new-page p{font-size:16px;line-height:1.75;color:#505050}.fp-new-photo{display:block;width:100%;height:auto;object-fit:cover;border-radius:3px}.fp-new-lead{display:grid;grid-template-columns:1.25fr 1fr;gap:45px;align-items:center;margin:0 0 60px}.fp-new-lead .fp-new-photo{aspect-ratio:1.5}.fp-new-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:52px 34px}.fp-new-grid article>.fp-new-photo{aspect-ratio:1.65}.fp-new-grid article>.fp-new-photo:last-child:not(:first-child){margin-top:20px}.fp-new-cert{background:#f8f8f8;border-left:4px solid #ed1975;padding:24px 30px}.fp-new-note{font-size:13px!important}.fp-new-gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:55px}.fp-new-gallery img{aspect-ratio:4/5}.fp-new-contact{display:grid;grid-template-columns:1.3fr 1fr;gap:50px;border-top:2px solid #ed1975;padding-top:30px}.fp-new-contact a{color:#b80e59;text-decoration:none}.fp-new-contact a:hover{text-decoration:underline}.fp-new-whatsapp{display:inline-block;border:1px solid #ed1975;padding:12px 18px;margin-top:8px;font-weight:bold}.fp-new-ending{text-align:center;margin:70px 0 0!important;font-style:italic;color:#ed1975!important;font-size:19px!important}@media(max-width:750px){.fp-new-page{padding:65px 22px}.fp-new-lead,.fp-new-grid,.fp-new-contact{grid-template-columns:1fr;gap:25px}.fp-new-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.fp-new-lead{margin-bottom:30px}}
+
+/* Page 4: editorial sustainability layout using original Flora Pura photographs */
+.fp-sustainability .fp-new-wrap{max-width:1180px}
+.fp-sustainability h2{margin-bottom:46px}
+.fp-sustainability-feature{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);align-items:center;gap:clamp(30px,5vw,75px);padding:35px 0 55px;border-bottom:1px solid #eee6ea}
+.fp-sustainability-feature-reverse{grid-template-columns:minmax(0,1fr) minmax(0,1.12fr)}
+.fp-sustainability-feature-reverse .fp-sustainability-media{grid-column:2;grid-row:1}
+.fp-sustainability-feature-reverse .fp-sustainability-copy{grid-column:1;grid-row:1}
+.fp-sustainability-copy h3{font-size:clamp(25px,2.5vw,35px);margin:0 0 20px;color:#191919}
+.fp-sustainability-copy p{max-width:520px;margin:0;line-height:1.75}
+.fp-sustainability-media{min-width:0}
+.fp-sustainability-media>.fp-new-photo{aspect-ratio:1.55;width:100%;height:auto;object-fit:cover;border-radius:10px;box-shadow:0 10px 28px #24111a12}
+.fp-sustainability-solar{display:grid;grid-template-columns:1.6fr 1fr;gap:12px}
+.fp-sustainability-solar>.fp-new-photo{height:100%;aspect-ratio:1.2;min-height:220px}
+.fp-sustainability-cert{margin-top:48px;padding:30px 0 8px;border-top:2px solid #ed1975;background:transparent}
+.fp-sustainability-cert h3{margin:0 0 14px}
+.fp-sustainability-cert p{max-width:820px}
+.fp-sustainability-cert .fp-new-note{color:#8a6c7a}
+@media(max-width:750px){.fp-sustainability h2{margin-bottom:22px}.fp-sustainability-feature,.fp-sustainability-feature-reverse{grid-template-columns:1fr;gap:22px;padding:24px 0 36px}.fp-sustainability-feature-reverse .fp-sustainability-media,.fp-sustainability-feature-reverse .fp-sustainability-copy{grid-column:auto;grid-row:auto}.fp-sustainability-feature .fp-sustainability-media{grid-row:1}.fp-sustainability-feature .fp-sustainability-copy{grid-row:2}.fp-sustainability-solar>.fp-new-photo{min-height:155px}.fp-sustainability-cert{margin-top:32px;padding-top:24px}}
