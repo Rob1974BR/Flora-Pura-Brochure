@@ -21,3 +21,6 @@
 
 /* Exact shared Flora Pura pink used on pages 1–3 */
 .fp-sustainability .fp-sustainability-copy h3{color:var(--pink,#ed1975)}
+
+/* Page 5: match From Our Farm to the Market to the Flora Pura brand pink */
+.fp-new-export .fp-new-lead h3{color:var(--pink,#ed1975)}
