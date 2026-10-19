@@ -306,12 +306,12 @@ const roses: Rose[] = [
 
 export default function Page() {
   return (
-    <main className="cover" id="home"><nav className="fp-site-nav" aria-label="Brochure navigation"><a className="fp-site-brand" href="#home"><img src="https://static.wixstatic.com/media/7b3f98_a7c5177ea87649da91df48b2c1af0b09~mv2.png/v1/fill/w_600,h_398,al_c,q_90/FloraPura-Brand%20Guidelines_Logo_Neg.png" alt="Flora Pura original logo" /></a><div className="fp-site-links"><a href="#home">Home</a><a href="#collection">Our Collection</a><a href="#our-story">Our Story &amp; Our Farm</a><a href="#sustainability">Sustainability</a><a href="#sales-export">Sales &amp; Export</a></div></nav>
-      <img className="cover-photo" src="https://static.wixstatic.com/media/7b3f98_fdb3763794ec4737a2b01fc52f5df875~mv2.jpg/v1/fill/w_1600,h_1066,al_c,q_90/DSC_8133.jpg" alt="Flora Pura rose greenhouse in Kenya" />
+    <main className="cover" id="home"><nav className="fp-site-nav" aria-label="Brochure navigation"><a className="fp-site-brand" href="#home"><img src="https://static.wixstatic.com/media/7b3f98_a7c5177ea87649da91df48b2c1af0b09~mv2.png/v1/fill/w_600,h_398,al_c,q_90/FloraPura-Brand%20Guidelines_Logo_Neg.png" alt="FloraPura original logo" /></a><div className="fp-site-links"><a href="#home">Home</a><a href="#collection">Our Collection</a><a href="#our-story">Our Story &amp; Our Farm</a><a href="#sustainability">Sustainability</a><a href="#sales-export">Sales &amp; Export</a></div></nav>
+      <img className="cover-photo" src="https://static.wixstatic.com/media/7b3f98_fdb3763794ec4737a2b01fc52f5df875~mv2.jpg/v1/fill/w_1600,h_1066,al_c,q_90/DSC_8133.jpg" alt="FloraPura rose greenhouse in Kenya" />
       <div className="shade" />
       <header className="topbar">
         <div className="brand-group">
-          <img className="logo" src="https://static.wixstatic.com/media/7b3f98_a7c5177ea87649da91df48b2c1af0b09~mv2.png/v1/fill/w_600,h_398,al_c,q_90/FloraPura-Brand%20Guidelines_Logo_Neg.png" alt="Flora Pura" />
+          <img className="logo" src="https://static.wixstatic.com/media/7b3f98_a7c5177ea87649da91df48b2c1af0b09~mv2.png/v1/fill/w_600,h_398,al_c,q_90/FloraPura-Brand%20Guidelines_Logo_Neg.png" alt="FloraPura" />
         </div>
         <span className="edition">DIGITAL COLLECTION · 2026</span>
       </header>
@@ -320,26 +320,26 @@ export default function Page() {
         <p className="intro">A family-owned flower farm in Kenya's Rift Valley, cultivating high-quality blooms with dedication to people, community and sustainable practices.</p>
         <a className="enter" href="#collection">Discover our collection <span>→</span></a>
       </section>
-      <footer className="cover-footer"><span>FLORA PURA</span><span>FROM KENYA WITH CARE</span></footer>
+      <footer className="cover-footer"><span>FLORAPURA</span><span>FROM KENYA WITH CARE</span></footer>
       <RoseCollection roses={roses} />
       <section id="our-story" className="fp-story">
         <div className="fp-story-inner">
-          <p className="fp-story-eyebrow">FLORA PURA · KENYA</p>
+          <p className="fp-story-eyebrow">FLORAPURA · KENYA</p>
           <h2>OUR STORY &amp; OUR FARM</h2>
           <div className={"fp-story-feature"}><div className="fp-story-feature-copy"><h3>Rooted in Passion. Growing with Purpose.</h3><p>Every rose has a story. Ours begins with a passion for flowers, years of experience and a vision to create something special.</p>
-<p>Founded in 2023 by Simon van der Burg, Flora Pura is a family-owned rose farm located in Naivasha, Kenya, in the heart of the Great Rift Valley.</p>
+<p>Founded in 2023 by Simon van der Burg, FloraPura is a family-owned rose farm located in Naivasha, Kenya, in the heart of the Great Rift Valley.</p>
 <p>Born in Kenya and raised in the Netherlands, Simon developed a strong connection with the international flower industry from an early age. Through years of experience in rose breeding, production and international markets, he developed a clear vision: to build a modern rose farm where exceptional quality, distinctive varieties and dedicated people come together.</p>
-<p>That vision became Flora Pura.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-simon-en-vrouw.png" alt="Simon and his wife at Flora Pura" /></div></div>
-          <div className={"fp-story-feature fp-story-feature-reverse"}><div className="fp-story-feature-copy"><h3>Our Farm. Our People. Our Pride.</h3><p>At Flora Pura, we believe that exceptional roses begin with exceptional people.</p>
+<p>That vision became FloraPura.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-simon-en-vrouw.png" alt="Simon and his wife at FloraPura" /></div></div>
+          <div className={"fp-story-feature fp-story-feature-reverse"}><div className="fp-story-feature-copy"><h3>Our Farm. Our People. Our Pride.</h3><p>At FloraPura, we believe that exceptional roses begin with exceptional people.</p>
 <p>Our dedicated team in Kenya brings together local expertise, craftsmanship and a shared commitment to growing beautiful roses. From cultivation and harvesting to grading and packing, every stage of production receives the attention it deserves.</p>
 <p>We believe in investing in our people, encouraging professional development and creating an environment where teamwork, responsibility and pride make the difference.</p>
-<p>Because behind every beautiful rose stands a team that cares.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-team-pakschuur.jpg" alt="Original Flora Pura packing team" /></div></div>
+<p>Because behind every beautiful rose stands a team that cares.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-team-pakschuur.jpg" alt="Original FloraPura packing team" /></div></div>
           <div className={"fp-story-feature"}><div className="fp-story-feature-copy"><h3>Growing Quality. Creating Distinction.</h3><p>Our ambition is not simply to grow roses, but to grow roses that stand out.</p>
 <p>By combining carefully selected varieties, professional cultivation and a deep understanding of international markets, we focus on roses with distinctive colours, beautiful shapes and consistent quality.</p>
-<p>Strong relationships with breeders, customers and partners allow us to continuously develop our collection and respond to the changing needs of the international flower industry.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-minion-kas.jpg" alt="Original Flora Pura greenhouse" /></div></div>
-          <div className="fp-story-closing"><h3>Growing Together. Looking Ahead.</h3><p>Flora Pura represents more than a rose farm. It is a shared ambition to build a reliable, innovative and responsible flower business with a strong future.</p>
+<p>Strong relationships with breeders, customers and partners allow us to continuously develop our collection and respond to the changing needs of the international flower industry.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-minion-kas.jpg" alt="Original FloraPura greenhouse" /></div></div>
+          <div className="fp-story-closing"><h3>Growing Together. Looking Ahead.</h3><p>FloraPura represents more than a rose farm. It is a shared ambition to build a reliable, innovative and responsible flower business with a strong future.</p>
 <p>With respect for our people, our surroundings and the flowers we grow, we continue to invest in quality, innovation and long-term partnerships.</p>
-<p>From our farm in Kenya to customers around the world, every Flora Pura rose reflects the passion, dedication and pride of the people behind it.</p><p className="fp-story-signature"><em>Grown with Passion. Delivered with Pride.</em></p></div>
+<p>From our farm in Kenya to customers around the world, every FloraPura rose reflects the passion, dedication and pride of the people behind it.</p><p className="fp-story-signature"><em>Grown with Passion. Delivered with Pride.</em></p></div>
         </div>
       </section>
       <SustainabilityAndExport />
