@@ -338,7 +338,7 @@ export default function Page() {
 <p>Strong relationships with breeders, customers and partners allow us to continuously develop our collection and respond to the changing needs of the international flower industry.</p></div><div className="fp-story-feature-media"><img className="fp-story-image" src="/farm/flora-pura-minion-kas.jpg" alt="Original Flora Pura greenhouse" /></div></div>
           <div className="fp-story-closing"><h3>Growing Together. Looking Ahead.</h3><p>Flora Pura represents more than a rose farm. It is a shared ambition to build a reliable, innovative and responsible flower business with a strong future.</p>
 <p>With respect for our people, our surroundings and the flowers we grow, we continue to invest in quality, innovation and long-term partnerships.</p>
-<p>From our farm in Kenya to customers around the world, every Flora Pura rose reflects the passion, dedication and pride of the people behind it.</p><p className="fp-story-signature"><strong>FLORA PURA</strong><em>Grown with Passion. Delivered with Pride.</em></p></div>
+<p>From our farm in Kenya to customers around the world, every Flora Pura rose reflects the passion, dedication and pride of the people behind it.</p><p className="fp-story-signature"><img src="https://static.wixstatic.com/media/7b3f98_a7c5177ea87649da91df48b2c1af0b09~mv2.png/v1/fill/w_600,h_398,al_c,q_90/FloraPura-Brand%20Guidelines_Logo_Neg.png" alt="Original Flora Pura logo" style={{ width: "190px", maxWidth: "70%", height: "auto", display: "block", margin: "0 auto 12px" }} /><em>Grown with Passion. Delivered with Pride.</em></p></div>
         </div>
       </section>
 
